@@ -1,7 +1,4 @@
----
-title: "02: GreenGrant"
-description: "Támogatási portál zöld pályázatokhoz."
----
+# Case Study: GreenGrant
 
 ## Background
 
