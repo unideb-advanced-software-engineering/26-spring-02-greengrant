@@ -1,3 +1,6 @@
+# GreenGrant
+The Zamunda Digital Renaissance (ZDR) is a transformative government program initiated by King Akeem and continued under the vision of Princess Meeka. At its core is GreenGrant, an innovative online portal that empowers citizens and businesses to apply for government subsidies for green energy and sustainable infrastructure investments.
+
 # Starlight Starter Kit: Basics
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
