@@ -4,6 +4,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://unideb-advanced-software-engineering.github.io",
+  base: "/26-spring-02-greengrant",
   integrations: [
     starlight({
       title: "GreenGrant",
