@@ -1,5 +1,6 @@
 ---
 title: Architecturally Significant Requirements (ASR)
+description: Architecturally Significant Requirements (ASRs) for the ZDR system
 ---
 
 # Zamunda Digital Renaissance (ZDR) System

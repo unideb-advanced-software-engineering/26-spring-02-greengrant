@@ -1,5 +1,6 @@
 ---
-title: Architecture Selection
+title: "Architectural Style"
+description: "The architectural style of the system."
 ---
 
 # GreenGrant System
