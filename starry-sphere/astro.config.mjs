@@ -16,8 +16,16 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Requirements",
+          autogenerate: { directory: "requirements" },
+        },
+        {
           label: "Architecture",
           autogenerate: { directory: "architecture" },
+        },
+        {
+          label: "Decision Records",
+          autogenerate: { directory: "adrs" },
         },
       ],
     }),
