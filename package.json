@@ -10,11 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdoc": "^1.0.4",
     "@astrojs/react": "^5.0.4",
     "@astrojs/starlight": "^0.38.2",
+    "@astrojs/starlight-markdoc": "^0.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.0.1",
+    "astrojs": "^0.1.1",
     "likec4": "^1.56.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",

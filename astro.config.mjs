@@ -2,6 +2,8 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
+import markdoc from "@astrojs/markdoc";
+
 import react from "@astrojs/react";
 import { LikeC4VitePlugin } from "likec4/vite-plugin";
 
@@ -9,6 +11,9 @@ import { LikeC4VitePlugin } from "likec4/vite-plugin";
 export default defineConfig({
   site: "https://unideb-advanced-software-engineering.github.io",
   base: "/26-spring-02-greengrant",
+  vite: {
+    plugins: [LikeC4VitePlugin({}),],
+  },
   integrations: [starlight({
     title: "GreenGrant",
     social: [
@@ -20,6 +25,10 @@ export default defineConfig({
     ],
     sidebar: [
       {
+          label: "Guides",
+          autogenerate: { directory: "guides" },
+      },
+      {
         label: "Requirements",
         autogenerate: { directory: "requirements" },
       },
@@ -28,9 +37,13 @@ export default defineConfig({
         autogenerate: { directory: "architecture" },
       },
       {
+        label: "Diagrams",
+        autogenerate: { directory: "diagrams" },
+      },
+      {
         label: "Decision Records",
         autogenerate: { directory: "adrs" },
       },
     ],
-  }), react()],
+  }), react(), markdoc()],
 });
